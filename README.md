@@ -1,4 +1,4 @@
-# springboot-react-jwt-token
+# springboot-react-jwt
 
 The goal of this project is to implement an application called `order-app` to manage orders. For it, we will implement a back-end [`Spring Boot`](https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/) application called `order-api` and a font-end [React](https://react.dev/) application called `order-ui`. Besides, we will use [`JWT Authentication`](https://en.wikipedia.org/wiki/JSON_Web_Token) to secure both applications.
 
@@ -53,7 +53,7 @@ On [priyanshugour](https://priyanshugour.vercel.app), I have compiled my Proof-o
 
 ## Start Environment
 
-- In a terminal, make sure you are inside `springboot-react-jwt-token` root folder;
+- In a terminal, make sure you are inside `springboot-react-jwt` root folder;
 
 - Run the following command to start docker compose services:
   ```
@@ -64,7 +64,7 @@ On [priyanshugour](https://priyanshugour.vercel.app), I have compiled my Proof-o
 
 - **order-api**
 
-  - Open a terminal and navigate to `springboot-react-jwt-token/order-api` folder;
+  - Open a terminal and navigate to `springboot-react-jwt/order-api` folder;
 
   - Run the following `Maven` command to start the application:
     ```
@@ -73,7 +73,7 @@ On [priyanshugour](https://priyanshugour.vercel.app), I have compiled my Proof-o
 
 - **order-ui**
 
-  - Open another terminal and navigate to `springboot-react-jwt-token/order-ui` folder;
+  - Open another terminal and navigate to `springboot-react-jwt/order-ui` folder;
 
   - Run the command below if you are running the application for the first time:
     ```
@@ -207,7 +207,7 @@ On [priyanshugour](https://priyanshugour.vercel.app), I have compiled my Proof-o
 
 - **Automatic Endpoints Test**
 
-  - Open a terminal and make sure you are in `springboot-react-jwt-token` root folder;
+  - Open a terminal and make sure you are in `springboot-react-jwt` root folder;
 
   - Run the following script:
     ```
@@ -266,14 +266,14 @@ On [priyanshugour](https://priyanshugour.vercel.app), I have compiled my Proof-o
 
 - To stop `order-api` and `order-ui`, go to the terminals where they are running and press `Ctrl+C`;
 
-- To stop and remove docker compose containers, network and volumes, go to a terminal and, inside: `springboot-react-jwt-token` root folder, run the command below
+- To stop and remove docker compose containers, network and volumes, go to a terminal and, inside: `springboot-react-jwt` root folder, run the command below
   ```
   docker compose down -v
   ```
 
 ## How to upgrade order-ui dependencies to latest version
 
-- In a terminal, make sure you are in `springboot-react-jwt-token/order-ui` folder;
+- In a terminal, make sure you are in `springboot-react-jwt/order-ui` folder;
 
 - Run the following commands:
   ```
